@@ -1,0 +1,192 @@
+*{
+  box-sizing: border-box;
+}
+
+.wrapper{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+body{
+  font-family: Arial,Helvetica,sans-sans-serif;
+  margin: 0;
+  padding:0;
+
+}
+
+/* @media screen and (max-width:767px){
+
+  body{
+    width: 100%;
+  }
+
+    .wrapper {
+      clear: both;
+}
+
+    .wrapper img  {
+      width: 50%;
+    }
+
+  .textarea{
+    width: 70%;
+    padding-bottom: 25px;
+  }
+
+
+
+} */
+@media screen and (min-width:768px) and (max-width:991px){
+
+  body{
+    font-size: 4vw;
+  }
+  .wrapper img  {
+    width: 80vw;
+  }
+  .textarea{
+    width: 90vw;
+    padding-bottom: 25px;
+  }
+
+    #button1{
+      width: 90vw;
+          }
+.gender{
+    margin-left: 15vw;
+  }
+.textarea .gender{
+  margin-bottom: 5vw;
+}
+
+footer {
+  font-size: 2vw;
+  margin-left: 0;
+}
+footer nav{
+  text-align: left;
+}
+
+}
+@media screen and (min-width:992px){
+
+}
+header{
+  background-color: #425F9C;
+      height: 84px;
+}
+header h1{
+  float: left;
+  width: 50%;
+  color: #fff;
+  font-size: 40px;
+}
+
+header form{
+  float: left;
+  width: 50%;
+  padding: 3%;
+}
+header:after{
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.headerFrom input{
+  width: 30%;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+#sousin{
+  width: 12%;
+  height: 30px;
+  font-size: 12px;
+  border-radius: 10px;
+  background: lightblue;
+}
+
+
+/* <!-- header 終わる --> */
+/* <!-- main 始まる --> */
+
+#backColor{
+      background: linear-gradient(white,#D7DCEA);
+}
+
+#forPadding{
+  padding-top: 15px;
+
+}
+
+img {
+  float:left;
+  width: 50%;
+}
+.container{
+  float: left;
+  width: 50%;
+}
+section:after{
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.formContainer div.textarea{
+  padding-top: 16px;
+}
+
+.textarea input [type="submit"]
+{
+  background-color:#68A253;
+  height: 40px;
+}
+
+.textarea input:not([type="submit"]) {
+  width:100%;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+
+.textarea input#namae{
+  float: left;
+  width: 50%;
+}
+.textarea input#sei{
+  float: left;
+  width: 50%;
+}
+
+.textarea div:after{
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.radioGender {
+    margin-top: 25px;
+  }
+
+.formContainer div.textarea input[type="submit"]{
+  background-color: #68A253;
+  width: 40%;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 10px;
+  color: #fff;
+}
+/* <!-- main 終わる -->
+<!-- footer 始まる --> */
+
+footer nav{
+  text-align: center;
+  margin-top: 2em;
+}
+footer nav a{
+  text-decoration: none;
+    margin-left: 8px;
+}
